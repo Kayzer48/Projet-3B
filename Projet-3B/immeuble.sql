@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : jeu. 04 fév. 2021 à 16:18
+-- Généré le : ven. 05 fév. 2021 à 08:11
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -35,23 +35,24 @@ CREATE TABLE IF NOT EXISTS `ampoules` (
   `position_ampoule` varchar(255) NOT NULL,
   `prix_ampoule` float NOT NULL,
   PRIMARY KEY (`id_ampoule`)
-) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `ampoules`
 --
 
 INSERT INTO `ampoules` (`id_ampoule`, `changement_de_date`, `etage`, `position_ampoule`, `prix_ampoule`) VALUES
-(28, '2021-01-26 00:00:00', 'RDC', 'fond', 1),
-(27, '2021-02-04 00:00:00', 'RDC', 'fond', 1),
-(29, '2021-02-18 00:00:00', '2', 'gauche', 333333),
-(30, '2021-02-04 00:00:00', '9', 'gauche', 15),
-(31, '2021-02-23 00:00:00', '6', 'gauche', 15),
-(32, '2021-01-30 00:00:00', '5', 'fond', 15),
-(33, '2021-02-06 00:00:00', '8', 'droite', 11),
-(34, '2021-02-25 00:00:00', '4', 'fond', 19.99),
+(31, '2021-02-11 00:00:00', 'RDC', 'à droite', 15),
+(43, '2021-02-10 00:00:00', 'RDC', 'au fond', 0.07),
+(44, '2021-02-18 00:00:00', '9', 'à droite', 30),
 (35, '2021-02-04 00:00:00', '6', 'à droite', 10.99),
-(36, '2021-02-05 00:00:00', '9', 'droite', 14.99);
+(36, '2021-02-12 00:00:00', 'RDC', 'à gauche', 14.99),
+(37, '2021-02-11 00:00:00', 'RDC', 'au fond', 333333),
+(38, '2021-02-12 00:00:00', 'RDC', 'au fond', 30),
+(39, '2021-02-26 00:00:00', 'RDC', 'au fond', 1),
+(40, '2021-02-10 00:00:00', 'RDC', 'au fond', 30),
+(41, '2021-02-10 00:00:00', 'RDC', 'au fond', 0.05),
+(42, '2021-02-11 00:00:00', 'RDC', 'au fond', 0.05);
 
 -- --------------------------------------------------------
 
